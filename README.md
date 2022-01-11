@@ -1,2 +1,3 @@
 # wdd130
-web fundamentals site
+This is my web fundamentals site!
+
