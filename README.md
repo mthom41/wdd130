@@ -1,3 +1,3 @@
 # wdd130
-This is my web fundamentals site!
+This is (or will be) my web fundamentals site!
 
