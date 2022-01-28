@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&display=swap');
+
+:root {
+    --primary-color: #b980ab;
+    text-align: center;
+    color: white;
+    background-color:var(--primary-color);
+}
+
+#header_text{
+    text-align: center;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#header_text:hover{
+    color:black;
+}
+
+#header_subtext{
+    text-align: center;
+}
+
+#bolder{
+    text-align: center;
+    font-family: "Arial Bold", sans-serif;
+}
+
+#principle_list{
+    display:inline-block;
+    text-align:left;
+    margin: 0 auto;
+    color:black;
+    font-family: "Arial Bold", sans-serif;
+}
+
+#nelson{
+    text-align:right;
+    max-width:150px;
+}
+
+#main_quote{
+    max-width: 270px;
+    margin: 0 auto;
+    font-family: "Arial", sans-serif;
+    font-size: 1.8em;
+    overflow-wrap: normal;
+
+}
+
+#foot_text{
+    text-align: center;
+    color: black;
+    max-width: 300px;
+    overflow-wrap: break-word;
+    margin: 0 auto;
+}
