@@ -1,0 +1,67 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #1E8B9E;
+}
+
+header{
+    background-color: #63E8FF;
+}
+nav a{
+    text-align:center;
+    background-color: #44d2eb;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color:#1E8B9E ;
+    color: #63E8FF;
+}
+
+.booking, .join-us{
+    background-color: #63E8FF;
+    text-decoration: none;
+}
+
+.booking:hover, .join-us:hover{
+    background-color: #F0BB90;
+    color:#9e4f0e;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align:center;
+}
+
+#hero-image{
+    width:100%;
+}
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #44d2eb;
+}
+.mountain-msg{
+    color:#F0BB90;
+    background-color: #9e4f0e;
+}
+
+.social-media{
+    width:80px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
+}
