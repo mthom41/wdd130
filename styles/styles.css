@@ -1,0 +1,31 @@
+#hero-img{
+    display:block;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.welcome-text{
+    font-size: 1.8em;
+    text-decoration: none;
+    text-align:center;
+
+}
+nav{
+    text-align: center;
+}
+
+a{
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    background-color: rgb(155, 155, 155);
+    margin: 15px;
+    border: 3px;
+    border-color: white;
+    border-style: outset;
+}
+
+a:hover{
+    color:white;
+    background-color: grey;
+}
