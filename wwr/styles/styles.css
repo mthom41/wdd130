@@ -1,14 +1,21 @@
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body{
     background-color: #1E8B9E;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     background-color: #63E8FF;
+}
+
+.logo{
+    width: 200px;
 }
 nav a{
     text-align:center;
@@ -24,6 +31,8 @@ nav a:hover{
 .booking, .join-us{
     background-color: #63E8FF;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
 }
 
 .booking:hover, .join-us:hover{
