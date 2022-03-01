@@ -1,0 +1,64 @@
+html{
+    background-color: black;
+}
+
+.content{
+    border-radius: 15px;
+    overflow: hidden;
+}
+.content, .body-text, .hero, .read, .views, .comments{
+    text-align: center;
+    margin:0 auto;
+    display:block;
+    background-color: white;
+    max-width: 300px;
+}
+
+.body-text h4{
+    margin: 40px 0px 5px 0px;
+    color:rgb(61, 61, 88);
+}
+
+.body-text h1{
+    margin:0px 0px 30px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body-text h3{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(87, 87, 148);
+    align-items: center;
+}
+
+.foot h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:20px 0px 0px 0px;
+}
+
+.foot h4{
+    margin-top:0;
+}
+
+.read{
+    grid-column: 1;
+    background-color: rgb(87, 87, 148);
+    color:white;
+}
+
+.views{
+    grid-column: 2;
+    background-color: rgb(87, 87, 148);
+    color:white;
+}
+
+.comments{
+    grid-column: 3;
+    background-color: rgb(87, 87, 148);
+    color:white;
+}
