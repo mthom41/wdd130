@@ -199,7 +199,39 @@ footer .social-media img{
     padding-top: 15px;
 }
 
+.faq-content{
+    background-color: #42d2eb;
+}
 
+.faq-head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+    font-size: 1.3em;
+}
+
+.faq-head h4{
+    color:gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.faq1{
+    border: 3px solid;
+    border-color: #1E8B9E;
+    border-radius: 6px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #63E8FF;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display:grid;
+}
+
+.faq1 h2, p{
+    text-align: left;
+}
+
+.faq1 img{
+    width:100%;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
