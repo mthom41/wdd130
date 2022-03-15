@@ -1,3 +1,9 @@
-img{
-    max-width: 250px;
+.nav-bar{
+    display:flex;
+    justify-content: space-around;
+}
+#img-logo{
+    max-width: 150px;
+    justify-self: center;
+    align-self: center;;
 }
