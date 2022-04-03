@@ -178,8 +178,7 @@ footer{
 
 
 
-
-.bali-hero{
+.bali-hero, .dama-hero{
     display:grid;
     overflow:hidden;
     grid-template-columns: 1fr;
@@ -190,12 +189,19 @@ footer{
     border-radius: 8px;
 }
 
-.bali-hero img{
+.bali-hero{
+    max-width: 1600px;
+}
+.dama-hero{
+    max-width: 1280px;
+}
+
+.bali-hero img, .dama-hero img{
     margin: 0 auto;
     padding:0px;
 }
 
-.bali-hero img, .bali-hero h1{
+.bali-hero img, .bali-hero h1, .dama-hero img, .dama-hero h1{
     grid-row: 1;
     margin:0 auto;
     grid-column:1;
@@ -203,7 +209,7 @@ footer{
     align-self: center;
 }
 
-.bali-hero h1{
+.bali-hero h1, .dama-hero h1{
     font-size: 10em;
     text-shadow: #6e6e6e 10px 10px 15px;
     color:#ac3d2c;
